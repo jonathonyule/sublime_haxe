@@ -58,7 +58,7 @@ class HaxeCompletionist( sublime_plugin.EventListener ):
         self.shutdown(True)
 
         #defaults
-        self.haxe_path = "haxe"
+        self.haxe_path = "/usr/local/bin/haxe"
         self.port = 6110
 
         if settings.has("port") is True:
